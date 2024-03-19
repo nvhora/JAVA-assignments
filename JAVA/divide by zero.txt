@@ -1,0 +1,15 @@
+
+public class Ehandeling {
+
+	public static void main(String[] args) {
+		int i=5;
+		
+		try{
+			int r=i/0;
+			System.out.println(r);
+		}catch(ArithmeticException e){
+			System.out.println("No number can be divided by zero");
+		}
+	}
+
+}
